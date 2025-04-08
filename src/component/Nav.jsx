@@ -40,7 +40,7 @@ const Nav = () => {
         scrolled ? "bg-black/50 backdrop-blur-md shadow-xl " : "bg-transparent"
       }`}
     >
-      <nav className="flex items-center justify-between container-f">
+      <nav className="flex items-center justify-between container-f m-auto">
         {/* Logo */}
         <a href="/">
           <img src={logo} alt="Logo" width={130} height={29} />
