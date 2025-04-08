@@ -24,12 +24,12 @@
 
     --font-ubuntu: "Ubuntu", sans-serif;
   
-    --background-image-hero: url("home_img.jpg");
+    --background-image-hero: url("/home_img.jpg");
 }
 
 @layer base{
   body {
-    @apply bg-primary;
+    @apply bg-primary overflow-x-hidden;
   }
 
   h1{
@@ -45,7 +45,7 @@
   }
   
   p{
-    @apply font-poppins text-[14px] leading-[160%] md:text-[16px] font-poppins
+    @apply font-poppins text-[14px] leading-[160%] md:text-[16px]
   }
 
   ul{
