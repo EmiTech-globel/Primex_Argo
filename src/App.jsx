@@ -17,7 +17,7 @@ function App() {
     });
   }, []);
   return (
-    <main>
+    <main className='overflow-hidden'>
        <Nav /> 
       <section >
         <Hero />

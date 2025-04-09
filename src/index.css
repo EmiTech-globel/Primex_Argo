@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+* {
+ box-sizing: border-box;
+}
 
 @theme {
     --color-primary: #f2f2f2;
@@ -29,7 +32,7 @@
 
 @layer base{
   body {
-    @apply bg-primary overflow-x-hidden;
+    @apply bg-primary;
   }
 
   h1{
