@@ -17,32 +17,27 @@ export const statistics = [
 export const products = [
     {
         imgURL: cocoa,
-        name: 'Cocoa Fruit',
-        price: '₦700',
+        name: 'Cocoa Fruit'
     },
 
     {
         imgURL: cassava,
         name: 'Cassava',
-        price: '₦5000',
     },
 
     {
         imgURL: red_palm_oil,
         name: 'Red Palm Oil',
-        price: '₦1500',
     },
 
     {
         imgURL: cray_fish,
         name: 'Cray Fish',
-        price: '₦3000',
     },
     
     {
         imgURL: millet,
         name: 'Millet',
-        price: '₦2000',
     },
 ];
 

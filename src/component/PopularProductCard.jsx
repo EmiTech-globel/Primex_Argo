@@ -20,7 +20,6 @@ const PopularProductCard = () => {
             <h3 className="text-xl font-semibold text-gray-900 mt-4">
                 {product.name}
             </h3>
-            <p className="info-text font-bold mt-2">{product.price}</p>
           </div>
         ))} 
     </div>
